@@ -56,14 +56,13 @@ EVS_Waste_to_Sustainable_Campus_Website/
 │       ├── compare-before.svg   the campus today — litter and one overflowing bin
 │       ├── compare-after.svg    the same campus with the plan in place
 │       ├── campus-map.svg       top-down campus plan used for the hotspot pins
-│       ├── cycle-loop.svg       five-step circular loop (Reduce → … → Educate)
+│       ├── cycle-loop.svg       five-step circular loop (Reduce → … → Review)
 │       ├── value-chain.svg      paper and plastic, two separate journeys
 │       ├── sorting-bins.svg     wet / paper / plastic bins
 │       ├── seed-paper.svg       recycled paper sheet with a seedling
 │       ├── plant-pot.svg        reused container becoming a plant pot
 │       ├── earth-layers.svg     soil cross-section, litter → soil → water
 │       ├── leaf-rule.svg        ornamental divider
-│       ├── hitam-mark.png       HITAM mark, lifted from the source deck
 │       ├── campus-original.jpg  campus photo from the source deck
 │       ├── campus-duotone.jpg   the same photo, duotoned green + cream
 │       └── favicon.svg

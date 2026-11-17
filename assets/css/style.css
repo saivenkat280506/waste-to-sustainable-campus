@@ -1250,7 +1250,7 @@ body::before {
 }
 @media (max-width: 900px) { .footer__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 520px) { .footer__grid { grid-template-columns: 1fr; } }
-.site-footer h4 {
+.site-footer h3 {
   font-size: 0.72rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -1275,12 +1275,34 @@ body::before {
   font-size: 0.83rem;
   color: rgba(231, 242, 220, 0.55);
 }
+/* keep the bottom row clear of the floating back-to-top button */
+@media (min-width: 761px) {
+  .site-footer .footer__bottom { padding-right: 68px; }
+}
 .footer__seal {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
 }
 .footer__seal img { height: 38px; width: auto; }
+.footer__seal__leaf {
+  width: 30px;
+  height: 30px;
+  flex: none;
+  border-radius: 10px 10px 10px 3px;
+  background: linear-gradient(150deg, var(--green-500), var(--green-700));
+  display: grid;
+  place-items: center;
+  color: var(--green-100);
+}
+.footer__seal__leaf svg { width: 18px; height: 18px; }
+.footer__seal__name {
+  font-family: var(--font-display);
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+  color: var(--green-300);
+}
 
 /* --------------------------------------------------------------------------
    20. BREADCRUMB / PAGE HERO (inner pages)
@@ -1347,6 +1369,17 @@ body::before {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+.tag-strip--stack {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.4rem;
+}
+.tag-strip--stack .chip {
+  justify-content: flex-start;
+  border-radius: 10px;
+  padding: 0.55em 0.9em;
 }
 .stat {
   display: flex;
@@ -1516,7 +1549,7 @@ body::before {
 .prose { max-width: 66ch; }
 .prose p { font-size: 1.06rem; line-height: 1.72; color: var(--ink-soft); }
 .prose p + p { margin-top: 1.1em; }
-.prose p:first-of-type::first-letter {
+.prose > p:first-of-type::first-letter {
   float: left;
   font-family: var(--font-display);
   font-size: 3.55em;
@@ -1537,6 +1570,8 @@ body::before {
   box-shadow: var(--shadow-sm);
 }
 .sidecard + .sidecard { margin-top: 1rem; }
+/* sidecards sitting as grid siblings are laid out by the grid, not stacked */
+.grid > .sidecard + .sidecard { margin-top: 0; }
 .sidecard__title {
   font-family: var(--font-body);
   font-size: 0.68rem;
@@ -1650,11 +1685,16 @@ body::before {
 }
 
 /* ------------------------------------------------------------ 6. FIGURES */
-.figure { margin: 0; }
+.figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
 .figure img { width: 100%; height: auto; border-radius: var(--r-lg); box-shadow: var(--shadow-md); }
 .figure--bare img { box-shadow: none; border-radius: 0; }
 .figure figcaption {
-  margin-top: 0.85rem;
+  margin-top: auto;
+  padding-top: 0.85rem;
   font-size: 0.85rem;
   color: var(--ink-mute);
   line-height: 1.5;
@@ -1721,12 +1761,14 @@ body::before {
 /* ----------------------------------------------------------- 8. HOTSPOTS */
 .hotspot {
   position: relative;
+}
+.hotspot__img {
+  position: relative;
   border-radius: var(--r-xl);
   overflow: hidden;
   background: var(--green-050);
   box-shadow: var(--shadow-lg);
 }
-.hotspot__img { position: relative; }
 .hotspot__img img { width: 100%; height: auto; display: block; }
 .hotspot__pin {
   position: absolute;
@@ -1767,7 +1809,7 @@ body::before {
   padding: 1.1rem 1.25rem;
   min-height: 108px;
 }
-.hotspot__panel h4 { font-size: 1.15rem; margin-bottom: 0.35rem; }
+.hotspot__panel h3 { font-size: 1.15rem; margin-bottom: 0.35rem; }
 .hotspot__panel p { font-size: 0.95rem; color: var(--ink-soft); margin: 0; }
 .hotspot__tabs { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 0.9rem; }
 .hotspot__tab {
@@ -1866,8 +1908,9 @@ body::before {
 .acc__btn:hover { background: rgba(233,242,223,.6); padding-left: 0.9rem; }
 .acc__n { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--green-200); }
 .acc__btn:hover .acc__n { color: var(--green-500); }
-.acc__t { font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; color: var(--ink); }
-.acc__sub { font-size: 0.88rem; color: var(--ink-mute); margin-top: 0.15rem; }
+.acc__t { display: block; font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; color: var(--ink); }
+.acc__sub { display: block; font-size: 0.88rem; color: var(--ink-mute); margin-top: 0.15rem; }
+.acc__h { display: block; min-width: 0; }
 .acc__ico {
   width: 32px; height: 32px; border-radius: 50%;
   border: 1.5px solid var(--line-strong);
@@ -1992,7 +2035,7 @@ body::before {
   align-items: center;
   min-height: min(76vh, 760px);
 }
-.hero__grid .hero__copy { padding: clamp(3rem, 7vw, 6rem) 0 clamp(3rem, 7vw, 6rem) 0; }
+.hero__grid .hero__copy { padding: 0; }
 .hero__grid .hero__art { padding-right: max(0px, calc((100vw - var(--shell)) / -2)); }
 .hero__grid .hero__art img { width: 100%; border-radius: 0; }
 @media (max-width: 940px) {
@@ -2123,12 +2166,19 @@ body::before {
   width: auto;
   margin-left: max(var(--gut), calc((100vw - var(--shell)) / 2));
   margin-right: 0;
-  padding-block: clamp(3rem, 7vw, 6rem);
+  padding-block: clamp(2rem, 4vw, 3.2rem);
   padding-right: clamp(1.5rem, 4vw, 4.5rem);
 }
-.hero--bleed .hero__art { align-self: stretch; display: flex; align-items: center; overflow: hidden; }
+.hero--bleed .hero__art {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding-right: 0;
+}
 .hero--bleed .hero__art img {
-  width: 116%; max-width: none; margin-left: -8%; border-radius: 0;
+  width: 100%; max-width: 100%; height: auto; margin: 0; border-radius: 0;
 }
 @media (max-width: 940px) {
   .hero--bleed .hero__grid { grid-template-columns: 1fr; }
@@ -2137,7 +2187,14 @@ body::before {
     width: min(100% - (var(--gut) * 2), var(--shell));
     padding-right: 0;
   }
-  .hero--bleed .hero__art { max-width: 620px; margin-inline: auto; }
+  .hero--bleed .hero__art {
+    width: 100%;
+    max-width: 620px; margin-inline: auto;
+    padding-bottom: clamp(1.4rem, 4vw, 2.4rem);
+  }
+}
+@media (min-width: 941px) and (max-width: 1100px) {
+  .hero__title { font-size: clamp(2.8rem, 2rem + 3vw, 4rem); }
 }
 
 /* ------------------------------------------------------ 24. NAV v2 */

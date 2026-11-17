@@ -189,7 +189,7 @@
     function activate(id) {
       var info = SPOTS[id];
       if (!info || !panel) return;
-      panel.innerHTML = '<h4>' + info.title + '</h4><p>' + info.body + '</p>';
+      panel.innerHTML = '<h3>' + info.title + '</h3><p>' + info.body + '</p>';
       pins.forEach(function (p) {
         p.classList.toggle('is-active', p.getAttribute('data-spot') === id);
       });

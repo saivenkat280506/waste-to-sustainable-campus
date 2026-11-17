@@ -4,29 +4,29 @@
 
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#e8f4de"/>
-      <stop offset="58%" stop-color="#f4faee"/>
-      <stop offset="100%" stop-color="#fbf9f1"/>
+      <stop offset="0%" stop-color="#bcdff2"/>
+      <stop offset="58%" stop-color="#dceffa"/>
+      <stop offset="100%" stop-color="#f4fbfe"/>
     </linearGradient>
     <linearGradient id="roofG" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#6f4626"/>
-      <stop offset="100%" stop-color="#8b5e3c"/>
+      <stop offset="0%" stop-color="#c2673f"/>
+      <stop offset="100%" stop-color="#9a4528"/>
     </linearGradient>
-    <linearGradient id="binG" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#6bb04f"/>
-      <stop offset="100%" stop-color="#3b802c"/>
+    <linearGradient id="binPaper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3f8fc4"/>
+      <stop offset="100%" stop-color="#246a9b"/>
     </linearGradient>
-    <linearGradient id="binB" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#a97a55"/>
-      <stop offset="100%" stop-color="#6f4626"/>
+    <linearGradient id="binPlastic" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0a04a"/>
+      <stop offset="100%" stop-color="#c96a1e"/>
     </linearGradient>
-    <linearGradient id="binD" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#4b9732"/>
-      <stop offset="100%" stop-color="#2c6122"/>
+    <linearGradient id="binWet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3f8f45"/>
+      <stop offset="100%" stop-color="#256b2f"/>
     </linearGradient>
     <radialGradient id="sunG" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#f7ead0"/>
-      <stop offset="100%" stop-color="#f3e0bd"/>
+      <stop offset="0%" stop-color="#f9e4b4"/>
+      <stop offset="100%" stop-color="#f2d69a"/>
     </radialGradient>
 
     <clipPath id="frame">
@@ -35,9 +35,9 @@
 
     <!-- reusable arched window -->
     <g id="archWin">
-      <path d="M0 30 V13 A11 11 0 0 1 22 13 V30 Z" fill="#2c6122"/>
-      <path d="M0 30 V13 A11 11 0 0 1 22 13 V30 Z" fill="none" stroke="#1f4318" stroke-width="1.2" opacity=".5"/>
-      <path d="M11 4 V30" stroke="#f4faee" stroke-width="1.6" opacity=".35"/>
+      <path d="M0 30 V13 A11 11 0 0 1 22 13 V30 Z" fill="#8fbfd8"/>
+      <path d="M0 30 V13 A11 11 0 0 1 22 13 V30 Z" fill="none" stroke="#4f7f99" stroke-width="1.2" opacity=".65"/>
+      <path d="M11 4 V30" stroke="#eaf5fa" stroke-width="1.6" opacity=".8"/>
     </g>
     <!-- reusable leaf -->
     <path id="leaf" d="M0 0 C10 -13 27 -13 34 0 C27 13 10 13 0 0 Z M0 0 C10 -5 24 -5 34 0" fill="none" stroke-width="1.6" stroke-linecap="round"/>
@@ -52,44 +52,44 @@
     <!-- cycle emblem in the sky -->
     <g transform="translate(136,124)" opacity=".5">
       <circle r="44" fill="#fbfaf4" opacity=".7"/>
-      <circle r="28" fill="none" stroke="#4b9732" stroke-width="4" stroke-linecap="round"
+      <circle r="28" fill="none" stroke="#2f8f4e" stroke-width="4" stroke-linecap="round"
               stroke-dasharray="140 36" transform="rotate(0)"/>
-      <path d="M-20.4 30.2 L-21.4 18 L-9.6 21.2" fill="none" stroke="#4b9732" stroke-width="4"
+      <path d="M-20.4 30.2 L-21.4 18 L-9.6 21.2" fill="none" stroke="#2f8f4e" stroke-width="4"
             stroke-linecap="round" stroke-linejoin="round"/>
     </g>
 
     <!-- distant hills -->
-    <path d="M0 452 Q120 392 252 442 Q392 494 520 436 Q664 376 820 430 L820 680 L0 680 Z" fill="#cbe3b6"/>
-    <path d="M0 486 Q160 452 330 484 Q520 520 820 470 L820 680 L0 680 Z" fill="#b8d79e"/>
+    <path d="M0 452 Q120 392 252 442 Q392 494 520 436 Q664 376 820 430 L820 680 L0 680 Z" fill="#b7d49a"/>
+    <path d="M0 486 Q160 452 330 484 Q520 520 820 470 L820 680 L0 680 Z" fill="#a3c486"/>
 
     <!-- ground -->
-    <path d="M0 512 Q210 476 424 512 Q648 548 820 500 L820 680 L0 680 Z" fill="#d3e9c1"/>
+    <path d="M0 512 Q210 476 424 512 Q648 548 820 500 L820 680 L0 680 Z" fill="#9cc47e"/>
     <!-- walkway -->
-    <path d="M344 680 Q376 570 306 508 L470 508 Q420 578 462 680 Z" fill="#f0e5d1"/>
-    <path d="M344 680 Q376 570 306 508" fill="none" stroke="#ddcdb2" stroke-width="2"/>
-    <path d="M462 680 Q420 578 470 508" fill="none" stroke="#ddcdb2" stroke-width="2"/>
+    <path d="M344 680 Q376 570 306 508 L470 508 Q420 578 462 680 Z" fill="#ead7b5"/>
+    <path d="M344 680 Q376 570 306 508" fill="none" stroke="#d2bd97" stroke-width="2"/>
+    <path d="M462 680 Q420 578 470 508" fill="none" stroke="#d2bd97" stroke-width="2"/>
 
     <!-- ===== building ===== -->
-    <rect x="198" y="338" width="70" height="126" fill="#fbf8ef" stroke="#cdbb9c" stroke-width="2"/>
+    <rect x="198" y="338" width="70" height="126" fill="#f7ecd8" stroke="#cbb28f" stroke-width="2"/>
     <rect x="188" y="330" width="90" height="14" rx="4" fill="url(#roofG)"/>
     <use href="#archWin" x="214" y="360"/>
     <use href="#archWin" x="214" y="410"/>
 
-    <rect x="552" y="338" width="70" height="126" fill="#fbf8ef" stroke="#cdbb9c" stroke-width="2"/>
+    <rect x="552" y="338" width="70" height="126" fill="#f7ecd8" stroke="#cbb28f" stroke-width="2"/>
     <rect x="542" y="330" width="90" height="14" rx="4" fill="url(#roofG)"/>
     <use href="#archWin" x="576" y="360"/>
     <use href="#archWin" x="576" y="410"/>
 
     <!-- main block -->
-    <rect x="268" y="264" width="284" height="200" fill="#fdfaf2" stroke="#cdbb9c" stroke-width="2"/>
+    <rect x="268" y="264" width="284" height="200" fill="#faf1df" stroke="#cbb28f" stroke-width="2"/>
     <path d="M246 268 L410 190 L574 268 Z" fill="url(#roofG)"/>
-    <path d="M246 268 L410 190 L574 268" fill="none" stroke="#4a2d18" stroke-width="2" opacity=".55"/>
-    <path d="M268 264 L410 196 L552 264" fill="none" stroke="#f3e0bd" stroke-width="2.5" opacity=".5"/>
+    <path d="M246 268 L410 190 L574 268" fill="none" stroke="#8a3a20" stroke-width="2" opacity=".55"/>
+    <path d="M268 264 L410 196 L552 264" fill="none" stroke="#f0c9a8" stroke-width="2.5" opacity=".55"/>
     <!-- tower -->
-    <rect x="374" y="146" width="72" height="58" fill="#fdfaf2" stroke="#cdbb9c" stroke-width="2"/>
-    <path d="M362 148 L410 108 L458 148 Z" fill="#5c3a21"/>
-    <path d="M410 108 L410 76" stroke="#3e2513" stroke-width="2.4" stroke-linecap="round"/>
-    <path d="M411 78 C432 82 440 90 440 98 C428 96 418 92 411 86 Z" fill="#4b9732"/>
+    <rect x="374" y="146" width="72" height="58" fill="#faf1df" stroke="#cbb28f" stroke-width="2"/>
+    <path d="M362 148 L410 108 L458 148 Z" fill="#8a3a20"/>
+    <path d="M410 108 L410 76" stroke="#6b4a2f" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M411 78 C432 82 440 90 440 98 C428 96 418 92 411 86 Z" fill="#3f7d32"/>
     <use href="#archWin" x="386" y="156"/>
     <use href="#archWin" x="412" y="156"/>
 
@@ -104,15 +104,15 @@
     <use href="#archWin" x="530" y="356"/>
 
     <!-- entrance -->
-    <path d="M384 464 V404 a26 26 0 0 1 52 0 V464 Z" fill="#6f4626"/>
-    <path d="M392 464 V406 a18 18 0 0 1 36 0 V464 Z" fill="none" stroke="#a97a55" stroke-width="1.6" opacity=".7"/>
-    <rect x="374" y="464" width="72" height="9" rx="2" fill="#e4cfb6"/>
-    <rect x="364" y="473" width="92" height="9" rx="2" fill="#d8bd9c"/>
+    <path d="M384 464 V404 a26 26 0 0 1 52 0 V464 Z" fill="#6b4a2f"/>
+    <path d="M392 464 V406 a18 18 0 0 1 36 0 V464 Z" fill="none" stroke="#b98a63" stroke-width="1.6" opacity=".7"/>
+    <rect x="374" y="464" width="72" height="9" rx="2" fill="#e8d6b8"/>
+    <rect x="364" y="473" width="92" height="9" rx="2" fill="#d4bd99"/>
     <!-- columns -->
-    <rect x="366" y="300" width="10" height="164" fill="#f0e5d1" stroke="#cdbb9c" stroke-width="1.5"/>
-    <rect x="444" y="300" width="10" height="164" fill="#f0e5d1" stroke="#cdbb9c" stroke-width="1.5"/>
-    <rect x="358" y="292" width="26" height="9" rx="3" fill="#e4cfb6"/>
-    <rect x="436" y="292" width="26" height="9" rx="3" fill="#e4cfb6"/>
+    <rect x="366" y="300" width="10" height="164" fill="#efe1c8" stroke="#cbb28f" stroke-width="1.5"/>
+    <rect x="444" y="300" width="10" height="164" fill="#efe1c8" stroke="#cbb28f" stroke-width="1.5"/>
+    <rect x="358" y="292" width="26" height="9" rx="3" fill="#e8d6b8"/>
+    <rect x="436" y="292" width="26" height="9" rx="3" fill="#e8d6b8"/>
 
     <!-- sign board -->
     <rect x="330" y="236" width="160" height="30" rx="6" fill="#2c6122"/>
@@ -124,14 +124,14 @@
     </g>
 
     <!-- ===== left tree ===== -->
-    <path d="M104 512 L104 372" stroke="#7a5233" stroke-width="15" stroke-linecap="round"/>
-    <path d="M104 430 L74 396" stroke="#7a5233" stroke-width="8" stroke-linecap="round"/>
-    <path d="M104 412 L136 380" stroke="#7a5233" stroke-width="8" stroke-linecap="round"/>
-    <circle cx="96" cy="330" r="54" fill="#4b9732"/>
-    <circle cx="140" cy="302" r="46" fill="#3b802c"/>
-    <circle cx="102" cy="278" r="42" fill="#6bb04f"/>
-    <circle cx="66" cy="292" r="32" fill="#3b802c"/>
-    <g fill="#9bc97f" opacity=".55">
+    <path d="M104 512 L104 372" stroke="#6b4a2f" stroke-width="15" stroke-linecap="round"/>
+    <path d="M104 430 L74 396" stroke="#6b4a2f" stroke-width="8" stroke-linecap="round"/>
+    <path d="M104 412 L136 380" stroke="#6b4a2f" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="96" cy="330" r="54" fill="#3f7d32"/>
+    <circle cx="140" cy="302" r="46" fill="#2f6b2c"/>
+    <circle cx="102" cy="278" r="42" fill="#5a9c45"/>
+    <circle cx="66" cy="292" r="32" fill="#2f6b2c"/>
+    <g fill="#8cc46a" opacity=".55">
       <circle cx="86" cy="312" r="7"/>
       <circle cx="120" cy="286" r="5"/>
       <circle cx="136" cy="330" r="6"/>
@@ -139,75 +139,75 @@
     </g>
 
     <!-- ===== right tree ===== -->
-    <path d="M742 506 L742 396" stroke="#7a5233" stroke-width="12" stroke-linecap="round"/>
-    <circle cx="736" cy="366" r="40" fill="#3b802c"/>
-    <circle cx="768" cy="344" r="32" fill="#4b9732"/>
-    <circle cx="742" cy="330" r="30" fill="#6bb04f"/>
+    <path d="M742 506 L742 396" stroke="#6b4a2f" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="736" cy="366" r="40" fill="#2f6b2c"/>
+    <circle cx="768" cy="344" r="32" fill="#3f7d32"/>
+    <circle cx="742" cy="330" r="30" fill="#5a9c45"/>
 
     <!-- bushes -->
-    <ellipse cx="168" cy="512" rx="38" ry="18" fill="#8cc06d"/>
-    <ellipse cx="600" cy="516" rx="46" ry="20" fill="#8cc06d"/>
-    <ellipse cx="286" cy="524" rx="30" ry="14" fill="#9bc97f"/>
+    <ellipse cx="168" cy="512" rx="38" ry="18" fill="#6fae57"/>
+    <ellipse cx="600" cy="516" rx="46" ry="20" fill="#6fae57"/>
+    <ellipse cx="286" cy="524" rx="30" ry="14" fill="#8cc46a"/>
 
     <!-- ===== plant pot made from a reused container ===== -->
     <g>
-      <path d="M238 584 C238 556 226 538 204 528" stroke="#3b802c" stroke-width="5" fill="none" stroke-linecap="round"/>
-      <path d="M238 584 C238 552 254 534 276 526" stroke="#4b9732" stroke-width="5" fill="none" stroke-linecap="round"/>
-      <path d="M238 582 C238 550 240 530 242 514" stroke="#6bb04f" stroke-width="5" fill="none" stroke-linecap="round"/>
-      <ellipse cx="200" cy="524" rx="17" ry="9" fill="#6bb04f" transform="rotate(-34 200 524)"/>
-      <ellipse cx="281" cy="522" rx="17" ry="9" fill="#4b9732" transform="rotate(30 281 522)"/>
-      <ellipse cx="243" cy="510" rx="12" ry="7" fill="#8cc06d"/>
-      <path d="M206 586 L214 644 L262 644 L270 586 Z" fill="#a97a55"/>
-      <path d="M206 586 L214 644" stroke="#c9a886" stroke-width="2.5" fill="none"/>
-      <path d="M270 586 L262 644" stroke="#7a5233" stroke-width="2.5" fill="none"/>
-      <rect x="198" y="574" width="80" height="16" rx="5" fill="#8b5e3c"/>
-      <ellipse cx="238" cy="578" rx="32" ry="6" fill="#5c3a21"/>
+      <path d="M238 584 C238 556 226 538 204 528" stroke="#3f7d32" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M238 584 C238 552 254 534 276 526" stroke="#4f9440" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M238 582 C238 550 240 530 242 514" stroke="#6aa84f" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <ellipse cx="200" cy="524" rx="17" ry="9" fill="#6aa84f" transform="rotate(-34 200 524)"/>
+      <ellipse cx="281" cy="522" rx="17" ry="9" fill="#4f9440" transform="rotate(30 281 522)"/>
+      <ellipse cx="243" cy="510" rx="12" ry="7" fill="#9ac47a"/>
+      <path d="M206 586 L214 644 L262 644 L270 586 Z" fill="#cbd8de"/>
+      <path d="M206 586 L214 644" stroke="#e8f0f4" stroke-width="2.5" fill="none"/>
+      <path d="M270 586 L262 644" stroke="#9aabb4" stroke-width="2.5" fill="none"/>
+      <rect x="198" y="574" width="80" height="16" rx="5" fill="#b0c1ca"/>
+      <ellipse cx="238" cy="578" rx="32" ry="6" fill="#4a3324"/>
     </g>
 
     <!-- ===== segregation station ===== -->
     <g>
       <!-- wet waste -->
-      <path d="M500 545 h74 l-7 72 h-60 Z" fill="url(#binD)"/>
-      <rect x="494" y="533" width="86" height="13" rx="5" fill="#16300f"/>
-      <rect x="514" y="518" width="46" height="10" rx="5" fill="#0d210a" opacity=".9"/>
-      <g transform="translate(518,564)" fill="none" stroke="#e7f2dc" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M500 545 h74 l-7 72 h-60 Z" fill="url(#binWet)"/>
+      <rect x="494" y="533" width="86" height="13" rx="5" fill="#1d5526"/>
+      <rect x="514" y="518" width="46" height="10" rx="5" fill="#123f1b" opacity=".9"/>
+      <g transform="translate(518,564)" fill="none" stroke="#eaf6e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
         <path d="M6 10 h24 v18 a3 3 0 0 1 -3 3 h-18 a3 3 0 0 1 -3 -3 Z"/>
         <path d="M18 10 C18 4 22 1 27 0"/>
         <path d="M12 10 C12 6 15 3 19 2"/>
       </g>
       <!-- paper -->
-      <path d="M594 545 h74 l-7 72 h-60 Z" fill="url(#binG)"/>
-      <rect x="588" y="533" width="86" height="13" rx="5" fill="#2c6122"/>
-      <rect x="608" y="518" width="46" height="10" rx="5" fill="#16300f" opacity=".9"/>
-      <g transform="translate(612,564)" fill="none" stroke="#e7f2dc" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M594 545 h74 l-7 72 h-60 Z" fill="url(#binPaper)"/>
+      <rect x="588" y="533" width="86" height="13" rx="5" fill="#1d5a85"/>
+      <rect x="608" y="518" width="46" height="10" rx="5" fill="#164466" opacity=".9"/>
+      <g transform="translate(612,564)" fill="none" stroke="#eaf5fb" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
         <path d="M8 4 h20 v22 a3 3 0 0 1 -3 3 h-14 a3 3 0 0 1 -3 -3 Z"/>
         <path d="M6 4 h24"/>
         <path d="M14 11 h8 M14 17 h8 M14 23 h6"/>
       </g>
       <!-- plastic -->
-      <path d="M688 545 h74 l-7 72 h-60 Z" fill="url(#binB)"/>
-      <rect x="682" y="533" width="86" height="13" rx="5" fill="#5c3a21"/>
-      <rect x="702" y="518" width="46" height="10" rx="5" fill="#3e2513" opacity=".9"/>
-      <g transform="translate(706,564)" fill="none" stroke="#f1e3d3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M688 545 h74 l-7 72 h-60 Z" fill="url(#binPlastic)"/>
+      <rect x="682" y="533" width="86" height="13" rx="5" fill="#a85414"/>
+      <rect x="702" y="518" width="46" height="10" rx="5" fill="#7f3d0d" opacity=".9"/>
+      <g transform="translate(706,564)" fill="none" stroke="#fdf2e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
         <path d="M12 3 h12 v8 l4 6 v10 a3 3 0 0 1 -3 3 h-14 a3 3 0 0 1 -3 -3 v-10 l4 -6 Z"/>
         <path d="M9 11 h18"/>
       </g>
-      <g font-family="Karla, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#5c3a21" text-anchor="middle">
-        <text x="537" y="640">WET</text>
-        <text x="631" y="640">PAPER</text>
-        <text x="725" y="640">PLASTIC</text>
+      <g font-family="Karla, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="middle">
+        <text x="537" y="640" fill="#256b2f">WET</text>
+        <text x="631" y="640" fill="#246a9b">PAPER</text>
+        <text x="725" y="640" fill="#a85414">PLASTIC</text>
       </g>
     </g>
 
     <!-- floating leaves -->
     <g fill="none" opacity=".65">
-      <use href="#leaf" transform="translate(232,96) rotate(-22) scale(.8)" stroke="#4b9732"/>
-      <use href="#leaf" transform="translate(318,140) rotate(28) scale(.55)" stroke="#6bb04f"/>
-      <use href="#leaf" transform="translate(690,236) rotate(-14) scale(.7)" stroke="#8b5e3c"/>
-      <use href="#leaf" transform="translate(742,140) rotate(46) scale(.5)" stroke="#4b9732"/>
+      <use href="#leaf" transform="translate(232,96) rotate(-22) scale(.8)" stroke="#3f7d32"/>
+      <use href="#leaf" transform="translate(318,140) rotate(28) scale(.55)" stroke="#5a9c45"/>
+      <use href="#leaf" transform="translate(690,236) rotate(-14) scale(.7)" stroke="#b07a3f"/>
+      <use href="#leaf" transform="translate(742,140) rotate(46) scale(.5)" stroke="#3f7d32"/>
     </g>
     <!-- birds -->
-    <g fill="none" stroke="#4b9732" stroke-width="2" stroke-linecap="round" opacity=".55">
+    <g fill="none" stroke="#5b7a8a" stroke-width="2" stroke-linecap="round" opacity=".55">
       <path d="M432 96 q9 -8 18 0 q9 -8 18 0"/>
       <path d="M480 130 q7 -6 14 0 q7 -6 14 0"/>
     </g>

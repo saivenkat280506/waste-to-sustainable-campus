@@ -4,41 +4,41 @@
 
   <defs>
     <linearGradient id="skyE" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#e8f4de"/><stop offset="100%" stop-color="#f6faf0"/>
+      <stop offset="0%" stop-color="#bcdff2"/><stop offset="100%" stop-color="#e9f5fb"/>
     </linearGradient>
     <linearGradient id="waterE" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#a9d3ea"/><stop offset="100%" stop-color="#6ba8c9"/>
+      <stop offset="0%" stop-color="#8ec6e4"/><stop offset="100%" stop-color="#4f8fbd"/>
     </linearGradient>
   </defs>
 
   <rect x="0" y="0" width="660" height="520" rx="24" fill="url(#skyE)"/>
 
   <!-- surface line -->
-  <rect x="0" y="196" width="660" height="26" fill="#d3e9c1"/>
-  <rect x="0" y="222" width="660" height="86" fill="#c2a67e"/>
-  <rect x="0" y="308" width="660" height="96" fill="#a5865f"/>
-  <rect x="0" y="404" width="660" height="86" fill="#7d6446"/>
+  <rect x="0" y="196" width="660" height="26" fill="#7ba95c"/>
+  <rect x="0" y="222" width="660" height="86" fill="#8a5f3c"/>
+  <rect x="0" y="308" width="660" height="96" fill="#a97d52"/>
+  <rect x="0" y="404" width="660" height="86" fill="#7a736a"/>
   <!-- water table / stream -->
   <path d="M404 404 L660 404 L660 490 L404 490 Z" fill="url(#waterE)"/>
   <path d="M404 404 q40 -22 86 0 t86 0 t84 0" fill="none" stroke="#cfe8f6" stroke-width="4" opacity=".9"/>
   <!-- bedrock -->
-  <path d="M0 470 q60 -18 120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#5d4a34" stroke-width="4" opacity=".6"/>
+  <path d="M0 470 q60 -18 120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#55504a" stroke-width="4" opacity=".55"/>
 
   <!-- litter on the surface -->
   <g>
     <rect x="86" y="172" width="40" height="26" rx="3" fill="#fbfaf4" stroke="#c9a886" stroke-width="2" transform="rotate(-9 106 185)"/>
     <path d="M172 196 h34 l-3 -26 h-28 Z" fill="#cfd8dd" stroke="#8d9aa3" stroke-width="2"/>
-    <rect x="236" y="180" width="30" height="18" rx="2" fill="#a97a55" transform="rotate(8 251 189)"/>
-    <circle cx="318" cy="184" r="13" fill="#6bb04f" opacity=".9"/>
+    <rect x="330" y="180" width="30" height="18" rx="2" fill="#a97a55" transform="rotate(8 345 189)"/>
+    <circle cx="390" cy="184" r="13" fill="#5a9c45" opacity=".9"/>
   </g>
 
   <!-- tree -->
   <g transform="translate(178,20)">
-    <path d="M60 176 L60 84" stroke="#7a5233" stroke-width="13" stroke-linecap="round"/>
-    <circle cx="54" cy="58" r="42" fill="#4b9732"/>
-    <circle cx="90" cy="38" r="33" fill="#3b802c"/>
-    <circle cx="60" cy="22" r="28" fill="#6bb04f"/>
-    <g fill="none" stroke="#8b5e3c" stroke-width="3" stroke-linecap="round">
+    <path d="M60 176 L60 84" stroke="#6b4a2f" stroke-width="13" stroke-linecap="round"/>
+    <circle cx="54" cy="58" r="42" fill="#3f7d32"/>
+    <circle cx="90" cy="38" r="33" fill="#2f6b2c"/>
+    <circle cx="60" cy="22" r="28" fill="#5a9c45"/>
+    <g fill="none" stroke="#6b4a2f" stroke-width="3" stroke-linecap="round">
       <path d="M60 176 C58 140 46 124 26 112"/>
       <path d="M60 176 C62 142 78 126 100 116"/>
       <path d="M60 150 C52 136 46 130 36 126"/>
@@ -47,7 +47,7 @@
   </g>
 
   <!-- roots -->
-  <g stroke="#7a5233" stroke-width="2.8" fill="none" stroke-linecap="round" opacity=".85">
+  <g stroke="#5c412a" stroke-width="2.8" fill="none" stroke-linecap="round" opacity=".85">
     <path d="M238 196 C238 240 224 268 206 292"/>
     <path d="M238 196 C240 246 258 272 280 296"/>
     <path d="M238 232 C222 248 212 268 210 288"/>
@@ -61,37 +61,37 @@
 
   <!-- runoff path into the stream -->
   <path d="M300 200 C350 214 400 240 424 300 C444 350 460 382 470 408"
-        fill="none" stroke="#8b5e3c" stroke-width="4.5" stroke-dasharray="12 10" stroke-linecap="round"/>
-  <path d="M470 408 l-16 -4 l6 16 Z" fill="#8b5e3c"/>
+        fill="none" stroke="#6b4a2f" stroke-width="4.5" stroke-dasharray="12 10" stroke-linecap="round"/>
+  <path d="M470 408 l-16 -4 l6 16 Z" fill="#6b4a2f"/>
 
   <!-- soil-life zone markers -->
   <g>
-    <circle cx="120" cy="266" r="13" fill="#f1e3d3" stroke="#8b5e3c" stroke-width="2"/>
-    <path d="M115 266 l4 4 l7 -8" fill="none" stroke="#4b9732" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="120" cy="358" r="13" fill="#f1e3d3" stroke="#8b5e3c" stroke-width="2"/>
-    <path d="M115 358 l4 4 l7 -8" fill="none" stroke="#4b9732" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="252" cy="452" r="13" fill="#f1e3d3" stroke="#8b5e3c" stroke-width="2"/>
-    <path d="M247 452 l4 4 l7 -8" fill="none" stroke="#4b9732" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="60" cy="290" r="13" fill="#f7ecd8" stroke="#6b4a2f" stroke-width="2"/>
+    <path d="M55 290 l4 4 l7 -8" fill="none" stroke="#3f7d32" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="60" cy="378" r="13" fill="#f7ecd8" stroke="#6b4a2f" stroke-width="2"/>
+    <path d="M55 378 l4 4 l7 -8" fill="none" stroke="#3f7d32" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="236" cy="432" r="13" fill="#f7ecd8" stroke="#55504a" stroke-width="2"/>
+    <path d="M231 432 l4 4 l7 -8" fill="none" stroke="#3f7d32" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
   <!-- aquatic life -->
-  <g fill="#2c6122">
-    <path d="M540 442 c12 -10 26 -10 38 0 c-12 10 -26 10 -38 0 Z" opacity=".8"/>
-    <path d="M540 442 l-12 -8 v16 Z" opacity=".8"/>
-    <circle cx="602" cy="462" r="4" fill="#16300f" opacity=".7"/>
+  <g fill="#3d6f8c">
+    <path d="M540 442 c12 -10 26 -10 38 0 c-12 10 -26 10 -38 0 Z" opacity=".9"/>
+    <path d="M540 442 l-12 -8 v16 Z" opacity=".9"/>
+    <circle cx="602" cy="462" r="4" fill="#2b536b" opacity=".75"/>
   </g>
 
   <!-- labels -->
-  <g font-family="Karla, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#fbfaf4">
-    <rect x="16" y="236" width="176" height="28" rx="14" fill="#5c3a21" opacity=".9"/>
+  <g font-family="Karla, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#fdf7ee">
+    <rect x="16" y="236" width="176" height="28" rx="14" fill="#6b4a2f" opacity=".92"/>
     <text x="104" y="255" text-anchor="middle">TOPSOIL</text>
-    <rect x="16" y="322" width="196" height="28" rx="14" fill="#5c3a21" opacity=".9"/>
+    <rect x="16" y="322" width="196" height="28" rx="14" fill="#6b4a2f" opacity=".92"/>
     <text x="114" y="341" text-anchor="middle">SUBSOIL</text>
-    <rect x="16" y="418" width="196" height="28" rx="14" fill="#4a2d18" opacity=".9"/>
+    <rect x="16" y="418" width="196" height="28" rx="14" fill="#4f4941" opacity=".92"/>
     <text x="114" y="437" text-anchor="middle">BEDROCK</text>
-    <rect x="486" y="418" width="158" height="28" rx="14" fill="#2c6122" opacity=".9"/>
+    <rect x="486" y="418" width="158" height="28" rx="14" fill="#2e6f9e" opacity=".92"/>
     <text x="565" y="437" text-anchor="middle">WATER</text>
-    <rect x="300" y="132" width="188" height="28" rx="14" fill="#16300f" opacity=".85"/>
+    <rect x="300" y="132" width="188" height="28" rx="14" fill="#4f4941" opacity=".9"/>
     <text x="394" y="151" text-anchor="middle">LITTER ON CAMPUS</text>
   </g>
 </svg>
