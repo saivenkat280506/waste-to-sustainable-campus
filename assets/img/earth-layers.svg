@@ -27,9 +27,9 @@
   <!-- litter on the surface -->
   <g>
     <rect x="86" y="172" width="40" height="26" rx="3" fill="#fbfaf4" stroke="#c9a886" stroke-width="2" transform="rotate(-9 106 185)"/>
-    <path d="M172 196 h34 l-3 -26 h-28 Z" fill="#cfd8dd" stroke="#8d9aa3" stroke-width="2"/>
-    <rect x="330" y="180" width="30" height="18" rx="2" fill="#a97a55" transform="rotate(8 345 189)"/>
-    <circle cx="390" cy="184" r="13" fill="#5a9c45" opacity=".9"/>
+    <path d="M162 196 h34 l-3 -26 h-28 Z" fill="#cfd8dd" stroke="#8d9aa3" stroke-width="2"/>
+    <rect x="290" y="178" width="30" height="18" rx="2" fill="#a97a55" transform="rotate(8 305 187)"/>
+    <circle cx="348" cy="184" r="13" fill="#5a9c45" opacity=".9"/>
   </g>
 
   <!-- tree -->
@@ -60,38 +60,45 @@
   </g>
 
   <!-- runoff path into the stream -->
-  <path d="M300 200 C350 214 400 240 424 300 C444 350 460 382 470 408"
+  <path d="M348 196 C380 214 410 240 430 300 C446 350 458 386 468 416"
         fill="none" stroke="#6b4a2f" stroke-width="4.5" stroke-dasharray="12 10" stroke-linecap="round"/>
-  <path d="M470 408 l-16 -4 l6 16 Z" fill="#6b4a2f"/>
+  <path d="M468 416 l-14 -6 l6 15 Z" fill="#6b4a2f"/>
 
-  <!-- soil-life zone markers -->
-  <g>
-    <circle cx="60" cy="290" r="13" fill="#f7ecd8" stroke="#6b4a2f" stroke-width="2"/>
-    <path d="M55 290 l4 4 l7 -8" fill="none" stroke="#3f7d32" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="60" cy="378" r="13" fill="#f7ecd8" stroke="#6b4a2f" stroke-width="2"/>
-    <path d="M55 378 l4 4 l7 -8" fill="none" stroke="#3f7d32" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="236" cy="432" r="13" fill="#f7ecd8" stroke="#55504a" stroke-width="2"/>
-    <path d="M231 432 l4 4 l7 -8" fill="none" stroke="#3f7d32" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
-
-  <!-- aquatic life -->
+  <!-- aquatic life (in open water) -->
   <g fill="#3d6f8c">
-    <path d="M540 442 c12 -10 26 -10 38 0 c-12 10 -26 10 -38 0 Z" opacity=".9"/>
-    <path d="M540 442 l-12 -8 v16 Z" opacity=".9"/>
-    <circle cx="602" cy="462" r="4" fill="#2b536b" opacity=".75"/>
+    <path d="M436 454 c12 -10 26 -10 38 0 c-12 10 -26 10 -38 0 Z" opacity=".9"/>
+    <path d="M436 454 l-12 -8 v16 Z" opacity=".9"/>
+    <circle cx="496" cy="472" r="4" fill="#2b536b" opacity=".75"/>
   </g>
 
-  <!-- labels -->
+  <!-- labels & aligned badge symbols -->
   <g font-family="Karla, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#fdf7ee">
-    <rect x="16" y="236" width="176" height="28" rx="14" fill="#6b4a2f" opacity=".92"/>
-    <text x="104" y="255" text-anchor="middle">TOPSOIL</text>
-    <rect x="16" y="322" width="196" height="28" rx="14" fill="#6b4a2f" opacity=".92"/>
-    <text x="114" y="341" text-anchor="middle">SUBSOIL</text>
-    <rect x="16" y="418" width="196" height="28" rx="14" fill="#4f4941" opacity=".92"/>
-    <text x="114" y="437" text-anchor="middle">BEDROCK</text>
-    <rect x="486" y="418" width="158" height="28" rx="14" fill="#2e6f9e" opacity=".92"/>
-    <text x="565" y="437" text-anchor="middle">WATER</text>
-    <rect x="300" y="132" width="188" height="28" rx="14" fill="#4f4941" opacity=".9"/>
-    <text x="394" y="151" text-anchor="middle">LITTER ON CAMPUS</text>
+    <!-- LITTER ON CAMPUS -->
+    <rect x="270" y="132" width="188" height="28" rx="14" fill="#4f4941" opacity=".9"/>
+    <text x="364" y="151" text-anchor="middle">LITTER ON CAMPUS</text>
+
+    <!-- TOPSOIL -->
+    <rect x="16" y="236" width="168" height="30" rx="15" fill="#6b4a2f" opacity=".92"/>
+    <circle cx="32" cy="251" r="9" fill="#f7ecd8"/>
+    <path d="M28 251 l3 3 l5 -6" fill="none" stroke="#3f7d32" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="104" y="256" text-anchor="middle">TOPSOIL</text>
+
+    <!-- SUBSOIL -->
+    <rect x="16" y="322" width="168" height="30" rx="15" fill="#6b4a2f" opacity=".92"/>
+    <circle cx="32" cy="337" r="9" fill="#f7ecd8"/>
+    <path d="M28 337 l3 3 l5 -6" fill="none" stroke="#3f7d32" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="104" y="342" text-anchor="middle">SUBSOIL</text>
+
+    <!-- BEDROCK -->
+    <rect x="16" y="418" width="168" height="30" rx="15" fill="#4f4941" opacity=".92"/>
+    <circle cx="32" cy="433" r="9" fill="#f7ecd8"/>
+    <path d="M28 433 l3 3 l5 -6" fill="none" stroke="#3f7d32" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="104" y="438" text-anchor="middle">BEDROCK</text>
+
+    <!-- WATER -->
+    <rect x="494" y="418" width="150" height="30" rx="15" fill="#2e6f9e" opacity=".92"/>
+    <circle cx="510" cy="433" r="9" fill="#e3f2fd"/>
+    <path d="M506 433 l3 3 l5 -6" fill="none" stroke="#1976d2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="580" y="438" text-anchor="middle">WATER</text>
   </g>
 </svg>
