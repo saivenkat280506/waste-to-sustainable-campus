@@ -170,7 +170,7 @@
       <path d="M500 545 h74 l-7 72 h-60 Z" fill="url(#binWet)"/>
       <rect x="494" y="533" width="86" height="13" rx="5" fill="#1d5526"/>
       <rect x="514" y="518" width="46" height="10" rx="5" fill="#123f1b" opacity=".9"/>
-      <g transform="translate(518,564)" fill="none" stroke="#eaf6e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(519,564)" fill="none" stroke="#eaf6e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
         <path d="M6 10 h24 v18 a3 3 0 0 1 -3 3 h-18 a3 3 0 0 1 -3 -3 Z"/>
         <path d="M18 10 C18 4 22 1 27 0"/>
         <path d="M12 10 C12 6 15 3 19 2"/>
@@ -179,7 +179,7 @@
       <path d="M594 545 h74 l-7 72 h-60 Z" fill="url(#binPaper)"/>
       <rect x="588" y="533" width="86" height="13" rx="5" fill="#1d5a85"/>
       <rect x="608" y="518" width="46" height="10" rx="5" fill="#164466" opacity=".9"/>
-      <g transform="translate(612,564)" fill="none" stroke="#eaf5fb" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(613,564)" fill="none" stroke="#eaf5fb" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
         <path d="M8 4 h20 v22 a3 3 0 0 1 -3 3 h-14 a3 3 0 0 1 -3 -3 Z"/>
         <path d="M6 4 h24"/>
         <path d="M14 11 h8 M14 17 h8 M14 23 h6"/>
@@ -188,7 +188,7 @@
       <path d="M688 545 h74 l-7 72 h-60 Z" fill="url(#binPlastic)"/>
       <rect x="682" y="533" width="86" height="13" rx="5" fill="#a85414"/>
       <rect x="702" y="518" width="46" height="10" rx="5" fill="#7f3d0d" opacity=".9"/>
-      <g transform="translate(706,564)" fill="none" stroke="#fdf2e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(707,564)" fill="none" stroke="#fdf2e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
         <path d="M12 3 h12 v8 l4 6 v10 a3 3 0 0 1 -3 3 h-14 a3 3 0 0 1 -3 -3 v-10 l4 -6 Z"/>
         <path d="M9 11 h18"/>
       </g>

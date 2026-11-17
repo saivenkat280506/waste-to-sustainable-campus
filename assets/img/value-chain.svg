@@ -112,13 +112,13 @@
     <!-- node 4 : plant pot -->
     <g transform="translate(692,276)">
       <rect width="182" height="96" rx="12" fill="#8b5e3c"/>
-      <g transform="translate(36,8) scale(.8)">
+      <g transform="translate(70,8) scale(.8)">
         <path d="M4 40 h44 l-5 32 h-34 Z" fill="#f1e3d3"/>
         <rect x="0" y="34" width="52" height="8" rx="3" fill="#e4cfb6"/>
         <path d="M26 34 C26 20 20 12 10 8" stroke="#4b9732" stroke-width="3.4" fill="none" stroke-linecap="round"/>
         <path d="M26 34 C27 18 34 10 46 6" stroke="#6bb04f" stroke-width="3.4" fill="none" stroke-linecap="round"/>
       </g>
-      <text x="124" y="80" font-family="Karla, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f7efe4" text-anchor="middle">Plant pot</text>
+      <text x="91" y="80" font-family="Karla, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f7efe4" text-anchor="middle">Plant pot</text>
     </g>
   </g>
 </svg>

@@ -54,7 +54,7 @@
   <g transform="translate(531,204)">
     <circle r="62" fill="#2f7f8f"/>
     <circle r="62" fill="none" stroke="#1d5560" stroke-width="2" opacity=".4"/>
-    <g transform="translate(-24,-26)" fill="none" stroke="#e8f7fa" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(-20,-26)" fill="none" stroke="#e8f7fa" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M2 10 h14 l-1.5 22 h-11 Z"/><path d="M0 10 h18"/><path d="M9 10 V2"/>
       <path d="M24 10 h14 l-1.5 22 h-11 Z"/><path d="M22 10 h18"/><path d="M31 10 V2"/>
     </g>
@@ -79,7 +79,7 @@
   <g transform="translate(129,436)">
     <circle r="62" fill="#3f8f4e"/>
     <circle r="62" fill="none" stroke="#1d5526" stroke-width="2" opacity=".35"/>
-    <g transform="translate(-20,-26)" fill="none" stroke="#eaf6e4" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(-22,-26)" fill="none" stroke="#eaf6e4" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round">
       <path d="M8 22 A14 14 0 0 1 30 13"/>
       <path d="M24 4 L32 12 L22 15 Z" fill="#eaf6e4" stroke="none"/>
       <path d="M36 22 A14 14 0 0 1 14 31"/>
@@ -92,7 +92,7 @@
   <g transform="translate(129,204)">
     <circle r="62" fill="#7a5a3c"/>
     <circle r="62" fill="none" stroke="#4f3824" stroke-width="2" opacity=".35"/>
-    <g transform="translate(-22,-26)" fill="none" stroke="#f7efe4" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(-16,-26)" fill="none" stroke="#f7efe4" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M4 6 h24 v28 h-24 Z"/>
       <path d="M11 1 h10 v7 h-10 Z"/>
       <path d="m10 18 3 3 6 -6"/>
