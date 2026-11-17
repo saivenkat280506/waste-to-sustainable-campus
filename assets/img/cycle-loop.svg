@@ -37,6 +37,7 @@
     <ellipse cx="52" cy="-32" rx="13" ry="7" fill="#6aa84f" transform="rotate(-30 52 -32)"/>
     <ellipse cx="24" cy="-12" rx="11" ry="6" fill="#4f9440" transform="rotate(24 24 -12)"/>
   </g>
+  <text x="330" y="474" font-family="Karla, Helvetica, sans-serif" font-size="14" font-weight="800" letter-spacing="2.5" fill="#2f6b2c" text-anchor="middle">A SUSTAINABLE CAMPUS</text>
 
   <!-- node 1 : Reduce (top) -->
   <g transform="translate(330,88)">
