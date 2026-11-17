@@ -31,11 +31,11 @@
     <!-- node 2 : labelled paper bin -->
     <g transform="translate(236,86)">
       <rect width="178" height="96" rx="12" fill="#ffffff" stroke="#c9e3b4" stroke-width="2"/>
-      <g transform="translate(16,12) scale(.8)" fill="none" stroke="#4b9732" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(58,12) scale(.8)" fill="none" stroke="#4b9732" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M6 8 h32 v40 a5 5 0 0 1 -5 5 H11 a5 5 0 0 1 -5 -5 Z"/>
         <path d="M2 8 h40"/><path d="M22 8 V0"/>
       </g>
-      <g transform="translate(80,26) scale(.78)" fill="none" stroke="#3b802c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(103,24) scale(.78)" fill="none" stroke="#3b802c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
         <path d="M14 0 H6 a3 3 0 0 0 -3 3 v28 a3 3 0 0 0 3 3 h16 a3 3 0 0 0 3 -3 V7 Z"/>
         <path d="M14 0 v7 h7"/>
       </g>
@@ -85,11 +85,11 @@
     <!-- node 2 : labelled plastic bin -->
     <g transform="translate(236,276)">
       <rect width="178" height="96" rx="12" fill="#ffffff" stroke="#e4cfb6" stroke-width="2"/>
-      <g transform="translate(16,12) scale(.8)" fill="none" stroke="#8b5e3c" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(58,12) scale(.8)" fill="none" stroke="#8b5e3c" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M6 8 h32 v40 a5 5 0 0 1 -5 5 H11 a5 5 0 0 1 -5 -5 Z"/>
         <path d="M2 8 h40"/><path d="M22 8 V0"/>
       </g>
-      <g transform="translate(82,26) scale(.75)" fill="none" stroke="#6f4626" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(103,24) scale(.75)" fill="none" stroke="#6f4626" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M10 2 h16 v9 l4 8 v20 a4 4 0 0 1 -4 4 H10 a4 4 0 0 1 -4 -4 V19 l4 -8 Z"/>
       </g>
       <text x="89" y="80" font-family="Karla, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1b2417" text-anchor="middle">Labelled plastic bin</text>
