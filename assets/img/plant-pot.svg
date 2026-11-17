@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="ppTitle ppDesc">
+  <title id="ppTitle">A plant pot made from a reused plastic container</title>
+  <desc id="ppDesc">A discarded plastic container marked for cutting becoming a plant pot with a seedling, showing safe reuse instead of melting plastic.</desc>
+
+  <defs>
+    <linearGradient id="ppBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7efe4"/><stop offset="100%" stop-color="#ece0cd"/>
+    </linearGradient>
+    <linearGradient id="ppBot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2f5f7"/><stop offset="100%" stop-color="#cfd8dd"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="640" height="420" rx="26" fill="url(#ppBg)"/>
+
+  <!-- LEFT: discarded container -->
+  <g transform="translate(36,58)">
+    <path d="M18 34 h96 v196 a14 14 0 0 1 -14 14 h-68 a14 14 0 0 1 -14 -14 Z" fill="url(#ppBot)" stroke="#aab6bd" stroke-width="2.6"/>
+    <path d="M18 34 h96" stroke="#8d9aa3" stroke-width="3" stroke-linecap="round"/>
+    <path d="M4 22 h124 v14 h-124 Z" fill="#c3ced4" stroke="#8d9aa3" stroke-width="2.6"/>
+    <g fill="none" stroke="#8d9aa3" stroke-width="3" stroke-linecap="round" opacity=".8">
+      <path d="M30 96 h72"/><path d="M30 126 h72"/><path d="M30 156 h72"/>
+    </g>
+    <!-- cut line -->
+    <path d="M-12 168 h136" stroke="#8b5e3c" stroke-width="3" stroke-dasharray="10 8" stroke-linecap="round"/>
+    <text x="66" y="272" font-family="Karla, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#5c3a21" text-anchor="middle">Discarded</text>
+    <text x="66" y="292" font-family="Karla, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#5c3a21" text-anchor="middle">container</text>
+  </g>
+
+  <!-- arrow -->
+  <g transform="translate(206,196)">
+    <path d="M0 0 h104" stroke="#4b9732" stroke-width="4" stroke-linecap="round"/>
+    <path d="M94 -12 L112 0 L94 12 Z" fill="#4b9732"/>
+    <text x="52" y="-18" font-family="Karla, Helvetica, sans-serif" font-size="12" font-weight="800" letter-spacing="1.6" fill="#2c6122" text-anchor="middle">CUT &amp; REUSE</text>
+  </g>
+
+  <!-- RIGHT: plant pot -->
+  <g transform="translate(348,44)">
+    <ellipse cx="132" cy="322" rx="112" ry="15" fill="#8b5e3c" opacity=".16"/>
+    <!-- plant -->
+    <path d="M132 208 C132 170 122 146 100 130" stroke="#3b802c" stroke-width="6.5" fill="none" stroke-linecap="round"/>
+    <path d="M132 208 C134 166 150 140 172 124" stroke="#4b9732" stroke-width="6.5" fill="none" stroke-linecap="round"/>
+    <path d="M132 210 C132 178 134 152 134 132" stroke="#6bb04f" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="95" cy="122" rx="26" ry="13" fill="#6bb04f" transform="rotate(-34 95 122)"/>
+    <ellipse cx="177" cy="116" rx="26" ry="13" fill="#4b9732" transform="rotate(30 177 116)"/>
+    <ellipse cx="134" cy="126" rx="18" ry="10" fill="#8cc06d"/>
+    <!-- pot -->
+    <path d="M56 208 h152 l-18 110 h-116 Z" fill="#c3ced4" stroke="#8d9aa3" stroke-width="2.8" stroke-linejoin="round"/>
+    <path d="M46 192 h172 v20 h-172 Z" fill="#aab6bd" stroke="#8d9aa3" stroke-width="2.8" rx="5"/>
+    <g fill="none" stroke="#8d9aa3" stroke-width="2.6" opacity=".7">
+      <path d="M74 236 h116"/><path d="M78 268 h108"/>
+    </g>
+    <g transform="translate(112,226)" fill="none" stroke="#5c3a21" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 14 C0 6 5 1 12 0"/>
+      <path d="M0 14 C0 8 4 4 8 2"/>
+    </g>
+    <text x="132" y="352" font-family="Karla, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#5c3a21" text-anchor="middle">Plant pot / tray</text>
+    <text x="132" y="372" font-family="Karla, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#5c3a21" text-anchor="middle">for campus plants</text>
+  </g>
+</svg>

@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="cmpAfterTitle cmpAfterDesc">
+  <title id="cmpAfterTitle">The same campus with the waste plan in place</title>
+  <desc id="cmpAfterDesc">A flat illustration of the same campus walkway, clean and swept, with three labelled segregation bins for wet waste, paper and plastic, a plant pot made from a reused container, a garden bed of seedlings and a clear signpost.</desc>
+
+  <defs>
+    <linearGradient id="aSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8f4de"/>
+      <stop offset="58%" stop-color="#f4faee"/>
+      <stop offset="100%" stop-color="#fbf9f1"/>
+    </linearGradient>
+    <linearGradient id="aRoof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6f4626"/>
+      <stop offset="100%" stop-color="#8b5e3c"/>
+    </linearGradient>
+    <linearGradient id="aBinD" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4b9732"/>
+      <stop offset="100%" stop-color="#2c6122"/>
+    </linearGradient>
+    <linearGradient id="aBinG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6bb04f"/>
+      <stop offset="100%" stop-color="#3b802c"/>
+    </linearGradient>
+    <linearGradient id="aBinB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a97a55"/>
+      <stop offset="100%" stop-color="#6f4626"/>
+    </linearGradient>
+    <g id="aArch">
+      <path d="M0 30 V13 A11 11 0 0 1 22 13 V30 Z" fill="#2c6122"/>
+      <path d="M11 4 V30" stroke="#f4faee" stroke-width="1.6" opacity=".32"/>
+    </g>
+    <g id="aLeaf">
+      <path d="M0 0 C10 -13 27 -13 34 0 C27 13 10 13 0 0 Z M0 0 C10 -5 24 -5 34 0" fill="none" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <!-- ===================================================== sky -->
+  <rect width="1600" height="900" fill="url(#aSky)"/>
+  <circle cx="1296" cy="118" r="56" fill="#f7ead0"/>
+  <circle cx="1296" cy="118" r="74" fill="none" stroke="#e7d3ac" stroke-width="2" stroke-dasharray="6 10"/>
+
+  <!-- cycle emblem -->
+  <g transform="translate(268,150)" opacity=".55">
+    <circle r="52" fill="#fbfaf4" opacity=".8"/>
+    <circle r="32" fill="none" stroke="#4b9732" stroke-width="5" stroke-linecap="round" stroke-dasharray="160 40"/>
+    <path d="M-23 35 L-24 21 L-11 24" fill="none" stroke="#4b9732" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g fill="none" stroke="#4b9732" stroke-width="3" stroke-linecap="round" opacity=".5">
+    <path d="M240 150 q10 -9 20 0 q10 -9 20 0" transform="translate(0,0)"/>
+    <path d="M300 192 q8 -7 16 0 q8 -7 16 0"/>
+  </g>
+
+  <!-- ===================================================== landscape -->
+  <path d="M0 516 Q220 450 470 510 Q760 578 1060 496 Q1330 428 1600 484 L1600 900 L0 900 Z" fill="#cbe3b6"/>
+  <path d="M0 570 Q300 524 620 562 Q1000 608 1600 522 L1600 900 L0 900 Z" fill="#b8d79e"/>
+  <path d="M0 620 Q280 574 620 606 Q1020 648 1600 578 L1600 900 L0 900 Z" fill="#d3e9c1"/>
+
+  <!-- path (clean, crisp) -->
+  <path d="M596 900 Q650 720 716 606 L884 606 Q846 716 1004 900 Z" fill="#f0e5d1"/>
+  <path d="M596 900 Q650 720 716 606" fill="none" stroke="#ddcdb2" stroke-width="3"/>
+  <path d="M1004 900 Q846 716 884 606" fill="none" stroke="#ddcdb2" stroke-width="3"/>
+
+  <!-- ===================================================== building -->
+  <rect x="470" y="392" width="104" height="208" fill="#fdfaf2" stroke="#cdbb9c" stroke-width="2"/>
+  <rect x="458" y="376" width="128" height="17" rx="5" fill="url(#aRoof)"/>
+  <use href="#aArch" x="498" y="424"/>
+  <use href="#aArch" x="498" y="480"/>
+  <use href="#aArch" x="534" y="424"/>
+  <use href="#aArch" x="534" y="480"/>
+
+  <rect x="1026" y="392" width="104" height="208" fill="#fdfaf2" stroke="#cdbb9c" stroke-width="2"/>
+  <rect x="1014" y="376" width="128" height="17" rx="5" fill="url(#aRoof)"/>
+  <use href="#aArch" x="1054" y="424"/>
+  <use href="#aArch" x="1054" y="480"/>
+  <use href="#aArch" x="1090" y="424"/>
+  <use href="#aArch" x="1090" y="480"/>
+
+  <rect x="620" y="300" width="360" height="300" fill="#fdfaf2" stroke="#cdbb9c" stroke-width="2"/>
+  <path d="M596 302 L800 196 L1004 302 Z" fill="url(#aRoof)"/>
+  <path d="M596 302 L800 196 L1004 302" fill="none" stroke="#4a2d18" stroke-width="2" opacity=".55"/>
+  <path d="M620 300 L800 202 L980 300" fill="none" stroke="#f3e0bd" stroke-width="2.5" opacity=".5"/>
+
+  <rect x="756" y="156" width="88" height="68" fill="#fdfaf2" stroke="#cdbb9c" stroke-width="2"/>
+  <path d="M742 158 L800 102 L858 158 Z" fill="#5c3a21"/>
+  <path d="M800 102 L800 66" stroke="#3e2513" stroke-width="3" stroke-linecap="round"/>
+  <path d="M801 68 C824 72 832 81 832 90 C818 88 807 83 801 76 Z" fill="#4b9732"/>
+  <use href="#aArch" x="772" y="170"/>
+  <use href="#aArch" x="806" y="170"/>
+
+  <use href="#aArch" x="648" y="344"/>
+  <use href="#aArch" x="700" y="344"/>
+  <use href="#aArch" x="878" y="344"/>
+  <use href="#aArch" x="930" y="344"/>
+  <use href="#aArch" x="648" y="404"/>
+  <use href="#aArch" x="700" y="404"/>
+  <use href="#aArch" x="878" y="404"/>
+  <use href="#aArch" x="930" y="404"/>
+
+  <rect x="676" y="258" width="248" height="30" rx="6" fill="#2c6122"/>
+  <g fill="#e7f2dc" opacity=".92">
+    <rect x="690" y="270" width="74" height="6" rx="3"/>
+    <rect x="776" y="270" width="42" height="6" rx="3"/>
+    <rect x="830" y="270" width="80" height="6" rx="3"/>
+  </g>
+
+  <path d="M772 600 V520 a28 28 0 0 1 56 0 V600 Z" fill="#6f4626"/>
+  <path d="M781 600 V522 a19 19 0 0 1 38 0 V600" fill="none" stroke="#a97a55" stroke-width="2" opacity=".7"/>
+  <rect x="756" y="600" width="88" height="10" rx="2" fill="#e4cfb6"/>
+  <rect x="744" y="610" width="112" height="10" rx="2" fill="#d8bd9c"/>
+  <rect x="748" y="344" width="10" height="256" fill="#f0e5d1" stroke="#cdbb9c" stroke-width="1.5"/>
+  <rect x="842" y="344" width="10" height="256" fill="#f0e5d1" stroke="#cdbb9c" stroke-width="1.5"/>
+
+  <!-- ===================================================== trees -->
+  <path d="M300 608 L300 432" stroke="#7a5233" stroke-width="16" stroke-linecap="round"/>
+  <path d="M300 490 L266 452 M300 470 L336 434" stroke="#7a5233" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="292" cy="372" r="56" fill="#4b9732"/>
+  <circle cx="340" cy="340" r="46" fill="#3b802c"/>
+  <circle cx="296" cy="314" r="44" fill="#6bb04f"/>
+  <circle cx="254" cy="328" r="32" fill="#3b802c"/>
+  <g fill="#9bc97f" opacity=".55">
+    <circle cx="280" cy="354" r="7"/><circle cx="320" cy="322" r="5"/>
+    <circle cx="332" cy="366" r="6"/><circle cx="248" cy="348" r="4"/>
+  </g>
+
+  <path d="M1316 598 L1316 452" stroke="#7a5233" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="1308" cy="402" r="42" fill="#3b802c"/>
+  <circle cx="1344" cy="376" r="34" fill="#4b9732"/>
+  <circle cx="1318" cy="358" r="30" fill="#6bb04f"/>
+
+  <ellipse cx="404" cy="618" rx="46" ry="20" fill="#8cc06d"/>
+  <ellipse cx="1156" cy="622" rx="52" ry="22" fill="#8cc06d"/>
+  <ellipse cx="562" cy="632" rx="34" ry="15" fill="#9bc97f"/>
+
+  <!-- ===================================================== PLAN IN PLACE -->
+  <!-- signpost -->
+  <g transform="translate(946,0)">
+    <rect x="-6" y="470" width="12" height="152" rx="5" fill="#8b5e3c"/>
+    <rect x="-58" y="446" width="116" height="40" rx="9" fill="#2c6122"/>
+    <g fill="#e7f2dc" opacity=".92">
+      <rect x="-42" y="460" width="46" height="6" rx="3"/>
+      <rect x="10" y="460" width="32" height="6" rx="3"/>
+      <rect x="-42" y="472" width="84" height="5" rx="2.5"/>
+    </g>
+    <circle cx="0" cy="470" r="5" fill="#16300f"/>
+  </g>
+
+  <!-- three labelled bins -->
+  <g transform="translate(1010,596)">
+    <ellipse cx="130" cy="212" rx="150" ry="20" fill="#8fae79" opacity=".45"/>
+
+    <!-- wet waste -->
+    <g>
+      <path d="M0 56 h86 l-8 150 h-70 Z" fill="url(#aBinD)"/>
+      <rect x="-7" y="42" width="100" height="15" rx="6" fill="#16300f"/>
+      <rect x="16" y="24" width="54" height="12" rx="6" fill="#0d210a" opacity=".9"/>
+      <g transform="translate(22,88)" fill="none" stroke="#e7f2dc" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7 11 h28 v21 a3 3 0 0 1 -3 3 h-22 a3 3 0 0 1 -3 -3 Z"/>
+        <path d="M21 11 C21 4 25 1 31 0"/>
+        <path d="M14 11 C14 6 18 3 22 2"/>
+      </g>
+    </g>
+    <!-- paper -->
+    <g transform="translate(104,0)">
+      <path d="M0 56 h86 l-8 150 h-70 Z" fill="url(#aBinG)"/>
+      <rect x="-7" y="42" width="100" height="15" rx="6" fill="#2c6122"/>
+      <rect x="16" y="24" width="54" height="12" rx="6" fill="#16300f" opacity=".9"/>
+      <g transform="translate(22,88)" fill="none" stroke="#e7f2dc" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 5 h23 v25 a3 3 0 0 1 -3 3 h-17 a3 3 0 0 1 -3 -3 Z"/>
+        <path d="M7 5 h27"/>
+        <path d="M16 13 h9 M16 20 h9 M16 27 h7"/>
+      </g>
+    </g>
+    <!-- plastic -->
+    <g transform="translate(208,0)">
+      <path d="M0 56 h86 l-8 150 h-70 Z" fill="url(#aBinB)"/>
+      <rect x="-7" y="42" width="100" height="15" rx="6" fill="#5c3a21"/>
+      <rect x="16" y="24" width="54" height="12" rx="6" fill="#3e2513" opacity=".9"/>
+      <g transform="translate(22,86)" fill="none" stroke="#f1e3d3" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M13 3 h14 v9 l5 7 v12 a3 3 0 0 1 -3 3 h-18 a3 3 0 0 1 -3 -3 v-12 l5 -7 Z"/>
+        <path d="M10 13 h20"/>
+      </g>
+    </g>
+
+    <g font-family="Karla, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#5c3a21" text-anchor="middle">
+      <text x="43" y="232">WET</text>
+      <text x="147" y="232">PAPER</text>
+      <text x="251" y="232">PLASTIC</text>
+    </g>
+  </g>
+
+  <!-- garden bed of seedlings -->
+  <g transform="translate(150,790)">
+    <ellipse cx="110" cy="74" rx="122" ry="20" fill="#8fae79" opacity=".45"/>
+    <rect x="0" y="28" width="220" height="46" rx="12" fill="#8b5e3c"/>
+    <rect x="8" y="20" width="204" height="22" rx="10" fill="#a97a55"/>
+    <rect x="8" y="20" width="204" height="12" rx="6" fill="#5c3a21" opacity=".55"/>
+    <g stroke="#4b9732" stroke-width="4" stroke-linecap="round" fill="none">
+      <path d="M40 20 V2"/><path d="M80 20 V-6"/><path d="M120 20 V2"/><path d="M160 20 V-8"/><path d="M194 20 V4"/>
+    </g>
+    <g fill="#6bb04f">
+      <ellipse cx="32" cy="2" rx="11" ry="6" transform="rotate(-28 32 2)"/>
+      <ellipse cx="49" cy="4" rx="11" ry="6" transform="rotate(24 49 4)"/>
+      <ellipse cx="72" cy="-4" rx="12" ry="6" transform="rotate(-30 72 -4)"/>
+      <ellipse cx="89" cy="-2" rx="12" ry="6" transform="rotate(26 89 -2)"/>
+      <ellipse cx="112" cy="3" rx="11" ry="6" transform="rotate(-26 112 3)"/>
+      <ellipse cx="129" cy="5" rx="11" ry="6" transform="rotate(28 129 5)"/>
+      <ellipse cx="152" cy="-6" rx="12" ry="6" transform="rotate(-32 152 -6)"/>
+      <ellipse cx="169" cy="-4" rx="12" ry="6" transform="rotate(28 169 -4)"/>
+      <ellipse cx="188" cy="5" rx="10" ry="5" transform="rotate(-24 188 5)"/>
+    </g>
+  </g>
+
+  <!-- plant pot made from a reused container -->
+  <g transform="translate(452,742)">
+    <ellipse cx="46" cy="118" rx="58" ry="12" fill="#8fae79" opacity=".45"/>
+    <path d="M14 56 C14 28 4 12 -16 4" stroke="#3b802c" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M14 56 C14 24 30 8 52 2" stroke="#4b9732" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M16 54 C16 22 18 4 20 -12" stroke="#6bb04f" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-20" cy="2" rx="19" ry="10" fill="#6bb04f" transform="rotate(-34 -20 2)"/>
+    <ellipse cx="56" cy="-2" rx="19" ry="10" fill="#4b9732" transform="rotate(30 56 -2)"/>
+    <ellipse cx="22" cy="-16" rx="13" ry="7" fill="#8cc06d"/>
+    <path d="M-20 58 L-13 114 L40 114 L48 58 Z" fill="#a97a55"/>
+    <path d="M-20 58 L-13 114" stroke="#c9a886" stroke-width="2.5" fill="none"/>
+    <path d="M48 58 L40 114" stroke="#7a5233" stroke-width="2.5" fill="none"/>
+    <rect x="-28" y="46" width="88" height="17" rx="6" fill="#8b5e3c"/>
+    <ellipse cx="16" cy="50" rx="36" ry="7" fill="#5c3a21"/>
+  </g>
+
+  <!-- clean swept path sparkle -->
+  <g stroke="#e7f2dc" stroke-width="3" stroke-linecap="round" opacity=".6">
+    <path d="M760 812 l10 -18"/><path d="M790 838 l14 -8"/><path d="M742 856 l6 -14"/>
+  </g>
+
+  <!-- floating leaves -->
+  <g fill="none" opacity=".6">
+    <use href="#aLeaf" transform="translate(430,196) rotate(-22) scale(1)" stroke="#4b9732"/>
+    <use href="#aLeaf" transform="translate(534,248) rotate(28) scale(.7)" stroke="#6bb04f"/>
+    <use href="#aLeaf" transform="translate(1206,232) rotate(-14) scale(.9)" stroke="#8b5e3c"/>
+    <use href="#aLeaf" transform="translate(1330,168) rotate(46) scale(.6)" stroke="#4b9732"/>
+    <use href="#aLeaf" transform="translate(1128,318) rotate(30) scale(.5)" stroke="#6bb04f"/>
+  </g>
+</svg>

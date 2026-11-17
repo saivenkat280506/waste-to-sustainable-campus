@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="vcTitle vcDesc">
+  <title id="vcTitle">Two value journeys for paper and plastic</title>
+  <desc id="vcDesc">The upper row traces used paper from the desk through a labelled bin and a recycler back into recycled paper. The lower row traces a used plastic container through a labelled bin, safe cutting and reuse into a plant pot.</desc>
+
+  <defs>
+    <marker id="vcArrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#8b5e3c"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="420" rx="24" fill="#fcfaf4"/>
+
+  <!-- ============ PAPER ROW ============ -->
+  <g>
+    <rect x="26" y="30" width="848" height="170" rx="18" fill="#eef6e6" stroke="#c9e3b4" stroke-width="2"/>
+    <text x="50" y="64" font-family="Karla, Helvetica, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="2.6" fill="#2c6122">PAPER</text>
+    <g stroke="#8b5e3c" stroke-width="2.8" stroke-linecap="round" marker-end="url(#vcArrow)" fill="none">
+      <path d="M186 134 h44"/><path d="M414 134 h44"/><path d="M642 134 h44"/>
+    </g>
+
+    <!-- node 1 : used sheets -->
+    <g transform="translate(50,86)">
+      <rect width="136" height="96" rx="12" fill="#ffffff" stroke="#c9e3b4" stroke-width="2"/>
+      <g transform="translate(52,10) scale(.8)" fill="none" stroke="#3b802c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 0 H8 a4 4 0 0 0 -4 4 v48 a4 4 0 0 0 4 4 h28 a4 4 0 0 0 4 -4 V12 Z"/>
+        <path d="M20 0 v12 h12"/><path d="M12 26 h16M12 38 h12"/>
+      </g>
+      <text x="68" y="80" font-family="Karla, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1b2417" text-anchor="middle">Used sheets</text>
+    </g>
+
+    <!-- node 2 : labelled paper bin -->
+    <g transform="translate(236,86)">
+      <rect width="178" height="96" rx="12" fill="#ffffff" stroke="#c9e3b4" stroke-width="2"/>
+      <g transform="translate(16,12) scale(.8)" fill="none" stroke="#4b9732" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 8 h32 v40 a5 5 0 0 1 -5 5 H11 a5 5 0 0 1 -5 -5 Z"/>
+        <path d="M2 8 h40"/><path d="M22 8 V0"/>
+      </g>
+      <g transform="translate(80,26) scale(.78)" fill="none" stroke="#3b802c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14 0 H6 a3 3 0 0 0 -3 3 v28 a3 3 0 0 0 3 3 h16 a3 3 0 0 0 3 -3 V7 Z"/>
+        <path d="M14 0 v7 h7"/>
+      </g>
+      <text x="89" y="80" font-family="Karla, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1b2417" text-anchor="middle">Labelled paper bin</text>
+    </g>
+
+    <!-- node 3 : authorised recycler -->
+    <g transform="translate(464,86)">
+      <rect width="178" height="96" rx="12" fill="#ffffff" stroke="#c9e3b4" stroke-width="2"/>
+      <g transform="translate(34,14) scale(.85)" fill="none" stroke="#3b802c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M16 4 L4 24 h10 L2 44"/><path d="M2 26 L-6 42"/>
+        <path d="M6 2 a22 22 0 0 1 24 8"/>
+      </g>
+      <text x="112" y="64" font-family="Karla, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1b2417" text-anchor="middle">Authorised</text>
+      <text x="112" y="82" font-family="Karla, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1b2417" text-anchor="middle">recycler</text>
+    </g>
+
+    <!-- node 4 : recycled paper -->
+    <g transform="translate(692,86)">
+      <rect width="182" height="96" rx="12" fill="#2c6122"/>
+      <g transform="translate(75,12) scale(.8)" fill="none" stroke="#e7f2dc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 0 H8 a4 4 0 0 0 -4 4 v48 a4 4 0 0 0 4 4 h28 a4 4 0 0 0 4 -4 V12 Z"/>
+        <path d="M20 0 v12 h12"/><path d="M12 26 h16M12 38 h12"/>
+      </g>
+      <text x="91" y="80" font-family="Karla, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#e7f2dc" text-anchor="middle">Recycled paper</text>
+    </g>
+  </g>
+
+  <!-- ============ PLASTIC ROW ============ -->
+  <g>
+    <rect x="26" y="220" width="848" height="170" rx="18" fill="#f7efe4" stroke="#e4cfb6" stroke-width="2"/>
+    <text x="50" y="254" font-family="Karla, Helvetica, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="2.6" fill="#5c3a21">PLASTIC</text>
+    <g stroke="#8b5e3c" stroke-width="2.8" stroke-linecap="round" marker-end="url(#vcArrow)" fill="none">
+      <path d="M186 324 h44"/><path d="M414 324 h44"/><path d="M642 324 h44"/>
+    </g>
+
+    <!-- node 1 : used container -->
+    <g transform="translate(50,276)">
+      <rect width="136" height="96" rx="12" fill="#ffffff" stroke="#e4cfb6" stroke-width="2"/>
+      <g transform="translate(56,14) scale(.8)" fill="none" stroke="#6f4626" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10 2 h16 v9 l4 8 v20 a4 4 0 0 1 -4 4 H10 a4 4 0 0 1 -4 -4 V19 l4 -8 Z"/>
+        <path d="M6 12 h24"/>
+      </g>
+      <text x="68" y="80" font-family="Karla, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1b2417" text-anchor="middle">Used container</text>
+    </g>
+
+    <!-- node 2 : labelled plastic bin -->
+    <g transform="translate(236,276)">
+      <rect width="178" height="96" rx="12" fill="#ffffff" stroke="#e4cfb6" stroke-width="2"/>
+      <g transform="translate(16,12) scale(.8)" fill="none" stroke="#8b5e3c" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 8 h32 v40 a5 5 0 0 1 -5 5 H11 a5 5 0 0 1 -5 -5 Z"/>
+        <path d="M2 8 h40"/><path d="M22 8 V0"/>
+      </g>
+      <g transform="translate(82,26) scale(.75)" fill="none" stroke="#6f4626" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10 2 h16 v9 l4 8 v20 a4 4 0 0 1 -4 4 H10 a4 4 0 0 1 -4 -4 V19 l4 -8 Z"/>
+      </g>
+      <text x="89" y="80" font-family="Karla, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1b2417" text-anchor="middle">Labelled plastic bin</text>
+    </g>
+
+    <!-- node 3 : cut and reuse -->
+    <g transform="translate(464,276)">
+      <rect width="178" height="96" rx="12" fill="#ffffff" stroke="#e4cfb6" stroke-width="2"/>
+      <g transform="translate(14,12) scale(.8)" fill="none" stroke="#5c3a21" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10 2 h16 v9 l4 8 v20 a4 4 0 0 1 -4 4 H10 a4 4 0 0 1 -4 -4 V19 l4 -8 Z"/>
+        <path d="M2 30 h36" stroke-dasharray="5 4"/>
+      </g>
+      <g transform="translate(54,18) scale(.8)" fill="none" stroke="#8b5e3c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="9"/><path d="M18 18 L28 28"/><path d="M8 12 h8M12 8 v8"/>
+      </g>
+      <text x="124" y="60" font-family="Karla, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1b2417" text-anchor="middle">Cut &amp; reuse</text>
+      <text x="124" y="78" font-family="Karla, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1b2417" text-anchor="middle">never melted</text>
+    </g>
+
+    <!-- node 4 : plant pot -->
+    <g transform="translate(692,276)">
+      <rect width="182" height="96" rx="12" fill="#8b5e3c"/>
+      <g transform="translate(36,8) scale(.8)">
+        <path d="M4 40 h44 l-5 32 h-34 Z" fill="#f1e3d3"/>
+        <rect x="0" y="34" width="52" height="8" rx="3" fill="#e4cfb6"/>
+        <path d="M26 34 C26 20 20 12 10 8" stroke="#4b9732" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+        <path d="M26 34 C27 18 34 10 46 6" stroke="#6bb04f" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+      </g>
+      <text x="124" y="80" font-family="Karla, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f7efe4" text-anchor="middle">Plant pot</text>
+    </g>
+  </g>
+</svg>
